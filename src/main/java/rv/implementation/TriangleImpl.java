@@ -7,7 +7,6 @@ import javax.jws.WebService;
 @WebService(endpointInterface = "rv.service.Shape")
 public class TriangleImpl implements Shape
 {
-
     @Override
     public double area(double base, double height) {
         return 0.5*base*height;

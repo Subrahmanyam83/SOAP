@@ -5,8 +5,8 @@ import rv.service.Shape;
 import javax.jws.WebService;
 
 @WebService(endpointInterface = "rv.service.Shape")
-public class RectangleImpl implements Shape {
-
+public class RectangleImpl implements Shape
+{
     @Override
     public double area(double length, double height) {
         return length*height;
